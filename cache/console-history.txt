@@ -1,0 +1,15 @@
+(await nend.testName());
+(await nend.name())
+const nend = await Nend3.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const Nend3 = await ethers.getContractFactory("NendV3");
+(await nend.testName())
+(await nend.setName("dwadwad")).toString()
+(await nend.testName())
+(await nend.testName)
+(await nend.name()).toString();
+const nend = await Nend2.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const Nend2 = await ethers.getContractFactory("NendV2");
+nend.name();
+(await nend.name());
+const nend = await NendV2.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const NendV2 = await ethers.getContractFactory("NendV2")
